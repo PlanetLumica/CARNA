@@ -16,7 +16,7 @@ let sheetPages = {
     inventoryLog: "inventory log",
     items: "items",
     traits: "traits",
-    prompts: "prompts",
+    prompts: "assignments",
     faq: "faq",
     staff: "mods",
 
@@ -56,7 +56,7 @@ let options = {
         itemOrder: "asc",
 
         filterColumn: 'Design Type',
-        searchFilterParams: ['ID', 'Owner', 'Designer', 'Artist'],
+        searchFilterParams: ['ID', 'Owner', 'Designer', 'Artist', 'Traits'],
         fauxFolderColumn: 'Species',
 
     },
